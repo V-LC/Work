@@ -1,0 +1,11 @@
+dlib
+face-recognition
+face-recognition-models
+numpy
+opencv-contrib-python
+opencv-python
+pymysql
+pyqt5
+cmake
+PySocks
+python-telegram-bot
