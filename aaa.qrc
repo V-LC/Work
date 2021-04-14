@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="lay">
+    <file>image/msw1.png</file>
+    <file>image/msw2.png</file>
+    <file>image/login.jpg</file>
+    <file>image/msw.png</file>
+    <file>image/login1.png</file>
+  </qresource>
+</RCC>
