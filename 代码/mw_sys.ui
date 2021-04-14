@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>836</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>836</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame  {
+	background-image: url(D:/Pycharm/Core/opencv_face/image/msw2.png);
+}
+QWidget  {
+border-image:url();
+}
+QLabel {
+border-image:url();
+}
+QPushButton {
+border-image:url();
+}
+QLineEdit {
+border-image:url();
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>818</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>131</width>
+       <height>581</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>131</width>
+       <height>581</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+border:1px solid rgb(217, 217, 217);
+}</string>
+     </property>
+     <property name="title">
+      <string>菜单</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>111</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="btn_msge">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(194, 170, 255,200);
+</string>
+         </property>
+         <property name="text">
+          <string>员工信息管理</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_id">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(194, 170, 255,200);
+</string>
+         </property>
+         <property name="text">
+          <string>账号管理</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_face">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(194, 170, 255,200);
+</string>
+         </property>
+         <property name="text">
+          <string>人脸库管理</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_close">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(194, 170, 255,200);
+</string>
+         </property>
+         <property name="text">
+          <string>退出系统</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="minimumSize">
+      <size>
+       <width>681</width>
+       <height>581</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>681</width>
+       <height>581</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+border:1px solid rgb(217, 217, 217);
+}</string>
+     </property>
+     <property name="title">
+      <string>窗口</string>
+     </property>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>661</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QFrame  {
+background-image: url();
+}
+QWidget  {
+border-image:url();
+
+}
+QLabel {
+border-image:url();
+}
+QPushButton {
+border-image:url();
+}
+QLineEdit {
+border-image:url();
+}</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="aaa.qrc"/>
+ </resources>
+ <connections/>
+</ui>
